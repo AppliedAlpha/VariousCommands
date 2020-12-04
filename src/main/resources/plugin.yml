@@ -1,0 +1,25 @@
+name: VariousCommands
+version: @version@
+main: com.example.variouscommands.VariousCommands
+api-version: 1.16
+
+commands:
+  countdown:
+    description: Get A Timer.
+    usage: /countdown <seconds>
+    permission: op
+
+  random:
+    description: RANDOM GAME
+    usage: /random <From> <To>
+    permission: op
+
+  colored:
+    description: Colored BroadCasting
+    usage: /colored <color> <text>
+    permission: op
+
+  tpall:
+    description: tp all users
+    usage: /tpall <target>
+    permission: op
